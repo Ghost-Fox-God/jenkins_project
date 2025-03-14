@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ECR_REPO = "054031713023.dkr.ecr.us-east-1.amazonaws.com/akshay_app:v2"
+        ECR_REPO = "054031713023.dkr.ecr.us-east-1.amazonaws.com/akshay_app:v3"
     }
     stages {
         stage('Akshay - Build Docker Image') {
